@@ -130,17 +130,20 @@ font-weight: 800;
 .change-link:hover {
   color: hsl(245, 83%, 65%);
   text-decoration: none;
+  cursor: pointer;
 }
 
 
 .payment-details span:hover {
   color: hsl(225, 100%, 98%);
   background-color: hsl(245, 83%, 65%);
+  cursor: pointer;
 }
 
 
 .cancel-btn span:hover {
   color: hsl(223, 47%, 23%);
+  cursor: pointer;
 }
 
 
