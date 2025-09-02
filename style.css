@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+   
+body {
+  background-color:  hsl(225, 100%, 94%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back-image {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+}
+
+.mainContainer {
+  max-width: 400px;
+ 
+  margin: 4rem;
+  background: hsl(225, 100%, 98%);
+  border-radius: 20px;
+  /* overflow: hidden; */
+  text-align: center;
+}
+
+.header-image {
+width: 100%;
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+}
+
+
+img {
+  width: 100%;
+}
+
+.details {
+  padding: 30px;
+  font-family: "Red Hat Display";
+  font-weight: 600;
+}
+
+h1 {
+  color:hsl(223, 47%, 23%);
+  margin-bottom: 30px;
+  font-family: "Red Hat Display";
+  font-weight: 800;
+}
+
+p {
+  font-size: 14px;
+  color: hsl(224, 23%, 55%);
+  margin-bottom: 20px;
+}
+
+.planContainer {
+  display: flex;
+  align-items: center;
+  background-color:hsla(222, 11%, 58%, 0.301);
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  gap: 1rem;
+}
+
+.music-icon img {
+  width: 32px;
+  margin-right: 15px;
+}
+
+.plan-details {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.plan-details strong {
+  display: flex;
+  color: hsl(223, 47%, 23%);
+  font-size: 14px;
+  font-family: "Red Hat Display";
+}
+
+.plan-details span {
+  color: hsl(224, 23%, 55%);
+  font-size: 14px;
+  font-family: "Red Hat Display";
+  font-weight: 800;
+}
+
+.change-link {
+  font-size: 14px;
+  color: hsl(223, 47%, 23%);
+  text-decoration: underline;
+  font-weight: 800;
+}
+
+.payment-details span {
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+  font-size: 15px;
+  font-weight: 500;
+  padding: 8px;
+  padding-right: 50px;
+  padding-left: 50px;
+  border-radius: 10px;
+  box-shadow: 2px 16px 39px -11px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 2px 16px 39px -11px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 16px 39px -11px rgba(0,0,0,0.75);  
+}
+
+.cancel-btn {
+margin-bottom: 2rem;
+}
+
+.cancel-btn span {
+color: hsl(224, 23%, 55%);
+font-family: "Red Hat Display";
+font-weight: 800;
+}
+
+
+.change-link:hover {
+  color: hsl(245, 83%, 65%);
+  text-decoration: none;
+}
+
+
+.payment-details span:hover {
+  color: hsl(225, 100%, 98%);
+  background-color: hsl(245, 83%, 65%);
+}
+
+
+.cancel-btn span:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile Design Code */
+
+@media (max-width: 600px){
+  .mainContainer{
+    max-width: 370px;
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+
+
+
+
